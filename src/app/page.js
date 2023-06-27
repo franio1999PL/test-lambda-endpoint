@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+export const revalidate = 20;
 export default async function Home() {
   const data = await axios.get('https://zkvagdvmx7.execute-api.us-east-1.amazonaws.com/prod/test')
 
